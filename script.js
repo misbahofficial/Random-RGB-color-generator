@@ -9,7 +9,8 @@ function main(){
     const root = document.getElementById('root');
     const btn = document.getElementById('btn');
     const currentColor = document.getElementById('current-color');
-
+    
+// add event listener
     btn.addEventListener('click', function(){
         const bgColor = randomColorGenerator();
         root.style.backgroundColor = bgColor;
@@ -29,5 +30,3 @@ function randomColorGenerator(){
 }
 
 // step 4: collect all necessary references
-
-// step 5: add event listener
